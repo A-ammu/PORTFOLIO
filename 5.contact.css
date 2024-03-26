@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    /* border: solid 1px black; */
+    height: 73px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.725);
+    display: flex;
+    position: fixed;
+}
+.header .box1{
+    /* border: solid 1px black; */
+    height: 75px;
+    width: 25%;
+}
+.box1 img{
+    height: 75px;
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+.header .box2{
+    /* border: solid 1px black; */
+    height: 75px;
+    width: 75%;
+}
+.box2 .list{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    list-style-type: none;
+    margin-left: 50px;
+}
+.list a{
+    text-decoration: none;
+    font-size: 22px;
+    font-family: cursive;
+    color: orangered;
+}
+
+h1{
+    color: orangered;
+}
+
+.body{
+    /* border: solid 1px black; */
+    height: 580px;
+    width: 100%;
+    background-color:black;
+    position: fixed;
+    z-index: -1;
+    margin-top: 70px;
+}
+.body h1{
+    margin-left: 600px;
+    margin-top: 15px;
+    /* font-family: cursive; */
+    font-style: italic;
+    color: orangered;
+}
+
+.box3{
+    /* border: solid 1px black; */
+    height: 450px;
+    width: 500px;
+    display: block;
+    margin:auto;
+    /* box-shadow: 0px 0px 5px white; */
+}
+.box3 .b3{
+    /* border: solid 1px black; */
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+
+    height: fit-content;
+    width: fit-content;
+    
+}
+.i1 .t1,.t2{
+    height: 35px;
+    width: 200px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+.i2 .t3,.t4{
+    margin-top: 10px;
+    height: 35px;
+    width: 200px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+.t1,.t2,.t3,.t4::placeholder{
+    /* font-size: 15px; */
+    font-style: italic;
+    /* font-family: cursive; */
+
+}
+.i3{
+    margin-top: 20px;
+}
+.i3 textarea{
+    border-radius: 5px;
+    border: none;
+}
+textarea:focus{
+    outline: none;
+}
+textarea::placeholder{
+    font-style:italic ;
+}
+.i4{
+    margin-top: 20px;
+}
+.i4 button{
+    margin-top: 25px;
+    height: 40px;
+    width: 150px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+input:focus{
+    outline: none;
+}

@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    /* border: solid 1px white; */
+    height: 250vh;
+    width: 100%;
+    background-color:black;
+    /* background-color:rgba(71, 195, 85, 0.594); */
+    
+}
+.header1 img{
+    height: 69px;
+    width: 180px;
+    margin-left: 50px;
+    margin-top: 3px;
+    background-color:white;
+    position: fixed;
+    z-index: 1;
+    
+}
+.header1 .list{
+    /* border: solid 1px black; */
+    height: 12vh;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+    top: 0px;
+    padding-left: 200px;
+    background-color: rgba(128, 128, 128, 0.614);
+
+    list-style-type: none;
+    font-size: 22px;
+    font-family: cursive;
+}
+.header1 a{
+    text-decoration: none;
+
+    color:orangered;
+}
+.header1 a:hover{
+    color: orangered;
+}
+
+
+.body{
+    border: solid 1px black;    
+    height: 250vh;
+    width: 100%;
+    color: black;
+}
+
+.body .box1,.box2,.box3{
+    /* border: solid 1px white; */
+    height: 300px;
+    width: 400px;
+    /* background-color:rgba(128, 128, 128, 0.614); */
+    box-shadow: 5px 5px 10px black;
+    background-color: rgba(255, 255, 255, 0.625);
+}
+
+.body h1{
+    margin-top: 100px;
+    margin-left: 150px;
+    color:orangered;
+    font-style: italic;
+}
+.body h2{
+    margin-top: 50px;
+    margin-left: 230px;
+    margin-bottom: 10px;
+    color:orangered;
+    font-style: italic;
+    font-family: cursive;
+}
+.box1,.box2{
+    margin-top: 10px;
+    margin-left: 130px;
+    border-radius: 0px 70px 0px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    margin-top:10px;
+    margin-left: 800px;
+    border-radius:  70px 0px 70px 0px;
+    
+}
+#ed{
+    margin-left: 880px;
+    display: inline;
+}
+.box3{
+    margin-left: 130px;
+    margin-top: -20px;
+    border-radius: 0px 70px 0px 70px;
+}
+.b1{
+    /* border: solid 1px white; */
+    height: fit-content;
+    width: fit-content;
+    
+}
+.b1 .a{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+
+}
+.b1 .b{
+    font-size: 17px;
+    font-family: cursive;
+    font-style: italic;
+}
+.box3 .b1{
+    padding: 15px;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+.box3 ul{
+    list-style-position: inside;
+    font-family: cursive;
+}
